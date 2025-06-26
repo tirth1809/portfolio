@@ -25,12 +25,7 @@ const Education = () => {
   ];
 
   const certifications = [
-    {
-      name: 'React.js Complete Course',
-      issuer: 'Udemy',
-      date: '2024',
-      description: 'Comprehensive course covering React fundamentals, hooks, state management, and modern development practices.'
-    },
+  
     {
       name: 'Career Essentials in Business Analysis – Microsoft & LinkedIn',
      
@@ -135,11 +130,11 @@ const Education = () => {
                   <BookOpen className="w-6 h-6 text-green-400 mt-1" />
                   <div>
                     <h3 className="text-lg font-bold text-white">{cert.name}</h3>
-                    <p className="text-purple-400 font-semibold">{cert.issuer}</p>
-                    <p className="text-gray-400 text-sm">{cert.date}</p>
+                    <p className="text-purple-400 font-semibold"></p>
+                    <p className="text-gray-400 text-sm"></p>
                   </div>
                 </div>
-                <p className="text-gray-300 text-sm">{cert.description}</p>
+                <p className="text-gray-300 text-sm"></p>
               </motion.div>
             ))}
           </div>
